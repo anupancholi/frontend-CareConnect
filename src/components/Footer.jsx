@@ -7,8 +7,10 @@ const Footer = () => {
       <div className='flex flex-col sm:grid grid-cols-[3fr_1fr_1fr] gap-14 my-10  mt-40 text-sm'>
 
         <div>
-          <img className='mb-5 w-40' src={assets.logo} alt="" />
-          <p className='w-full md:w-2/3 text-gray-600 leading-6'>aa</p>
+          <img className="mb-5 w-40 rounded-xl" src={assets.logo} alt="CareConnect Logo" />
+
+          <p className='w-full md:w-2/3 text-gray-600 leading-6'>💙 CareConnect — Bridging patients and doctors with seamless online appointments. <br />
+🕒 Book smarter. Care better. Anytime, anywhere.</p>
         </div>
 
         <div>
@@ -25,6 +27,7 @@ const Footer = () => {
           <ul className='flex flex-col gap-2 text-gray-600'>
             <li>+91 9893432010</li>
             <li>pancholianurodh@gmail.com</li>
+            <li>created by Anurodh Pancholi</li>
           </ul>
         </div>
 
